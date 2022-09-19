@@ -16,7 +16,7 @@ Le serveur [Node.js](https://nodejs.org/fr/)
 
 La base de données est de type semi-structurée json. Elle existe dans src/app/data/data.json
 
-Un serveur json appelé [json-server](https://www.npmjs.com/package/json-server) est inclus dans le package et son adresse par défaut est localhost:3000.
+Le serveur [json-server](https://www.npmjs.com/package/json-server) est inclus dans le package et son adresse par défaut est localhost:3000.
 
 ## Installer & lancer l'application
 
@@ -26,7 +26,7 @@ La procédure d'installation est simple, cloner le projet depuis github, puis à
   <li>Pointer à l'intérieur du dossier cloné</li>
   <li>Taper la commande : npm i</li>
   <li>Une fois npm est terminé, taper la commande suivante : ng serve</li>
-  <li>Lancer une autre interface de ligne de commande (CLI) pointant dans le même chemin et taper : json-server --watch src/data/data.json</li>
+  <li>Lancer une autre interface de ligne de commande (CLI) pointant dans le même chemin et taper : json-server --watch src/app/data/data.json</li>
   <li>Dans le navigateur, accéder à l'adresse : http://localhost:4200</li>
 </ol>
 
@@ -35,7 +35,8 @@ La procédure d'installation est simple, cloner le projet depuis github, puis à
 
 La base de données comporte 100 éléments (Produits).
 Voir le détail dans la section Base de données précitée.
-Une partie des champs de la base de données qui sont manipulés dans l'exemple, vous pouvez ajouter d'avantage si vous voulez.
+
+Seule une partie des champs de la base de données qui sont manipulés dans l'exemple, vous pouvez ajouter davantage si vous voulez.
 
 ## Aperçu de l'appli
 
