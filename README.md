@@ -16,7 +16,7 @@ Le serveur [Node.js](https://nodejs.org/fr/)
 
 La base de données est de type semi-structurée json. Elle existe dans src/app/data/data.json
 
-Un serveur json appelé [json-server](https://www.npmjs.com/package/json-server) est inclus dans le package et son adresse p r défaut est localhost:3000.
+Un serveur json appelé [json-server](https://www.npmjs.com/package/json-server) est inclus dans le package et son adresse par défaut est localhost:3000.
 
 ## Installer & lancer l'application
 
