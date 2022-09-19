@@ -4,29 +4,52 @@ Ce projet est un exemple simple pour manipuler des données REST (affichage/ajou
 
 Pour le serveur de données, j'ai utilisé JSON-SERVER qui est un faut API REST server.
 
+## Prérequis
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+Avant de lancer l'application, s'assurer d'installer :
 
-## Development server
+Le serveur [Node.js](https://nodejs.org/fr/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[Angular CLI](https://angular.io/cli)
 
-## Code scaffolding
+## Base de données
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La base de données est de type semi-structurée json. Elle existe dans src/app/data/data.json
 
-## Build
+Un serveur json appelé [json-server](https://www.npmjs.com/package/json-server) est inclus dans le package et son adresse p r défaut est localhost:3000.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installer & lancer l'application
 
-## Running unit tests
+La procédure d'installation est simple, cloner le projet depuis github, puis à l'aide d'une interface de ligne de commande (CLI) :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<ol>
+  <li>Pointer à l'intérieur du dossier cloné</li>
+  <li>Taper la commande : npm i</li>
+  <li>Une fois npm est terminé, taper la commande suivante : ng serve</li>
+  <li>Lancer une autre interface de ligne de commande (CLI) pointant dans le même chemin et taper : json-server --watch src/data/data.json</li>
+  <li>Dans le navigateur, accéder à l'adresse : http://localhost:4200</li>
+</ol>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Données exemples
 
-## Further help
+La base de données comporte 100 éléments (Produits).
+Voir le détail dans la section Base de données précitée.
+Une partie des champs de la base de données qui sont manipulés dans l'exemple, vous pouvez ajouter d'avantage si vous voulez.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Aperçu de l'appli
+
+### Liste des produits
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud1.PNG "Liste des produits")
+
+### Filtrer les produits
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud2.PNG "Filter les produits")
+
+### Ajouter un produit
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud3.PNG "Ajouter un produit")
+
+### Modifier un produit
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud4.PNG "Modifier un produit")
+
+### Supprimer un produit
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud5.PNG "Supprimer un produit")
