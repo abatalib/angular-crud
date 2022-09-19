@@ -1,4 +1,9 @@
-# Crud
+# Angular Crud
+
+Ce projet est un exemple simple pour manipuler des données REST (affichage/ajout/suppression/modification).
+
+Pour le serveur de données, j'ai utilisé JSON-SERVER qui est un faut API REST server.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
