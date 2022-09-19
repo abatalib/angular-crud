@@ -22,13 +22,13 @@ Le serveur [json-server](https://www.npmjs.com/package/json-server) est inclus d
 
 La procédure d'installation est simple, cloner le projet depuis github, puis à l'aide d'une interface de ligne de commande (CLI) :
 
-<ol>
-  <li>Pointer à l'intérieur du dossier cloné</li>
-  <li>Taper la commande : npm i</li>
-  <li>Une fois npm est terminé, taper la commande suivante : ng serve</li>
-  <li>Lancer une autre interface de ligne de commande (CLI) pointant dans le même chemin et taper : json-server --watch src/app/data/data.json</li>
-  <li>Dans le navigateur, accéder à l'adresse : http://localhost:4200</li>
-</ol>
+><ol>
+><li>Pointer à l'intérieur du dossier cloné</li>
+><li>Taper la commande : npm i</li>
+><li>Une fois npm est terminé, taper la commande suivante : ng serve</li>
+><li>Lancer une autre interface de ligne de commande (CLI) pointant dans le même chemin et taper : json-server --watch src/app/data/data.json</li>
+><li>Dans le navigateur, accéder à l'adresse : http://localhost:4200</li>
+></ol>
 
 
 ## Données exemples
@@ -36,7 +36,7 @@ La procédure d'installation est simple, cloner le projet depuis github, puis à
 La base de données comporte 100 éléments (Produits).
 Voir le détail dans la section Base de données précitée.
 
-Seule une partie des champs de la base de données qui sont manipulés dans l'exemple, vous pouvez ajouter davantage si vous voulez.
+>Seule une partie des champs de la base de données qui sont manipulés dans l'exemple, vous pouvez ajouter davantage si vous voulez.
 
 ## Aperçu de l'appli
 
