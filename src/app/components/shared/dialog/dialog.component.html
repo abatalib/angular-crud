@@ -1,0 +1,51 @@
+<h1 mat-dialog-title>Ajouter un produit</h1>
+<div mat-dialog-content>
+  <form [formGroup]="dialogForm" #ngForm="ngForm">
+    <div class="mb-2">
+      <span *ngIf="ngForm.submitted && !dialogForm.valid" class="small-font"
+            [ngClass]="{'invalid': ngForm.submitted }"> Champ(s) obligatoire(s)</span>
+    </div>
+
+    <mat-form-field appearance="outline">
+      <mat-label>ID</mat-label>
+      <input matInput formControlName="id" type="number" min="1" placeholder="ID du produit">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Nom</mat-label>
+      <input matInput formControlName="name" placeholder="Nom du produit">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Type</mat-label>
+      <input matInput formControlName="type" placeholder="Type du produit">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Prix</mat-label>
+      <input matInput formControlName="price" placeholder="Prix du produit">
+    </mat-form-field>
+
+
+
+    <div mat-dialog-actions>
+        <button mat-button mat-dialog-close>Annuler</button>
+        <button
+          (click)="onSubmit()"
+          mat-button
+          color="warn"
+          [disabled]="activeBtn">
+
+          <ngx-spinner
+            bdColor = "rgba(0, 0, 0, 0.8)"
+            size = "small"
+            color = "#fff"
+            type = "square-jelly-box"
+            [fullScreen] = "false">
+          </ngx-spinner>
+
+          Enregistrer
+        </button>
+    </div>
+  </form>
+</div>

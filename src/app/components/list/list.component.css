@@ -1,0 +1,20 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.div-filter {
+  background: #424242;
+}
+
+.btn-edit:hover {
+  color: coral;
+}
+
+.btn-delete:hover {
+  color: crimson;
+}
