@@ -1,6 +1,6 @@
 # Angular Crud
 
-Ce projet est un exemple simple pour manipuler des données REST (affichage/ajout/suppression/modification).
+Ce projet est un exemple simple développé sous Angular, pour manipuler des données REST (affichage/ajout/suppression/modification).
 
 Pour le serveur de données, j'ai utilisé JSON-SERVER qui est un faut API REST server.
 
