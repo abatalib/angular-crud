@@ -41,16 +41,16 @@ Voir le détail dans la section Base de données précitée.
 ## Aperçu de l'appli
 
 ### Liste des produits
-![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud1.PNG "Liste des produits")
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud1.png "Liste des produits")
 
 ### Filtrer les produits
-![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud2.PNG "Filter les produits")
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud2.png "Filter les produits")
 
 ### Ajouter un produit
-![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud3.PNG "Ajouter un produit")
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud3.png "Ajouter un produit")
 
 ### Modifier un produit
-![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud4.PNG "Modifier un produit")
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud4.png "Modifier un produit")
 
 ### Supprimer un produit
-![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud5.PNG "Supprimer un produit")
+![Aperçu appli Angular CRUD](https://www.abatalib.com/github/crud5.png "Supprimer un produit")

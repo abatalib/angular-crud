@@ -14,6 +14,7 @@ export class DialogComponent implements OnInit {
 
   dialogForm!: FormGroup;
   activeBtn: boolean = false;
+  title: string = "Ajouter un produit";
 
   constructor(
               @Inject(MAT_DIALOG_DATA) public dataToEdit: ProductModel,
@@ -24,7 +25,7 @@ export class DialogComponent implements OnInit {
   ngOnInit(): void {
     this.initializeForm();
 
-    this.dataToEdit ? this.dataToForm() : null;
+    this.dataToEdit ? (this.dataToForm(), this.title="Mise à jour de produit") : this.title="Ajouter un produit";
   }
 
   private initializeForm(): void {
