@@ -2,15 +2,16 @@
 
 Ce projet est un exemple simple développé sous Angular, pour manipuler des données REST (affichage/ajout/suppression/modification).
 
-Pour le serveur de données, j'ai utilisé JSON-SERVER qui est un faut API REST server.
+Pour le serveur de données, j'ai utilisé JSON-SERVER qui est un faut SERVEUR API REST.
 
 ## Prérequis
 
 Avant de lancer l'application, s'assurer d'installer :
 
-Le serveur [Node.js](https://nodejs.org/fr/)
+> Le serveur [Node.js](https://nodejs.org/fr/)
 
-[Angular CLI](https://angular.io/cli)
+> [Angular CLI](https://angular.io/cli)
+
 
 ## Base de données
 
@@ -25,8 +26,7 @@ La procédure d'installation est simple, cloner le projet depuis github, puis à
 ><ol>
 ><li>Pointer à l'intérieur du dossier cloné</li>
 ><li>Taper la commande : npm i</li>
-><li>Une fois npm est terminé, taper la commande suivante : ng serve</li>
-><li>Lancer une autre interface de ligne de commande (CLI) pointant dans le même chemin et taper : json-server --watch src/app/data/data.json</li>
+><li>Une fois le processus npm est terminé, taper la commande suivante : npm start</li>
 ><li>Dans le navigateur, accéder à l'adresse : http://localhost:4200</li>
 ></ol>
 
